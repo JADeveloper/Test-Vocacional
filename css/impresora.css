@@ -1,0 +1,15 @@
+@media print{
+    .ocultar-impresion{
+        display: none !important;
+    }
+
+    thead > tr > th{
+        -webkit-print-color-adjust: exact; 
+        color-adjust: exact;
+        border: 1pt solid #85241f !important; background-color: #85241f !important; color: white !important;
+    }
+    
+}
+
+
+
